@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 13:15:53 by elsahin           #+#    #+#             */
-/*   Updated: 2025/10/29 15:44:43 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/10/29 15:47:03 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@ char	*ft_strdup(const char *s1)
 	i = 0;
 	s1_len = ft_strlen(s1);
 	dest = malloc((sizeof(char)) * (s1_len + 1));
+	if (!dest)
+		return (NULL);
 	while (s1[i])
 	{
 		dest[i] = s1[i];
