@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/10/30 10:01:08 by elsahin           #+#    #+#             */
+/*   Updated: 2025/10/30 10:01:47 by elsahin          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 static int	is_in_set(char c, const char *set)
@@ -17,18 +29,17 @@ char	*ft_strtrim(char const *s1, char const *set)
 	size_t	end;
 	char	*trimmed;
 
-    start = 0;
-    end = ft_strlen(s1);
+	start = 0;
+	end = ft_strlen(s1);
 	if (!s1 || !set)
 		return (NULL);
 	while (s1[start] && is_in_set(s1[start], set))
 		start++;
 	while (end > start && is_in_set(s1[end - 1], set))
 		end--;
-    trimmed = malloc(end - start + 1);
+	trimmed = malloc(end - start + 1);
 	if (!trimmed)
 		return (NULL);
-
 	ft_strlcpy(trimmed, s1 + start, end - start + 1);
 	return (trimmed);
 }

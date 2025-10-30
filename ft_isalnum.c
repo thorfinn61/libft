@@ -6,17 +6,17 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 11:17:22 by elsahin           #+#    #+#             */
-/*   Updated: 2025/10/28 12:15:44 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/10/30 14:09:36 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	is_alnum(int c)
+int	ft_isalnum(int c)
 {
 	if ((c >= '0' && c <= '9')
-		|| c >= 'a' && c <= 'z'
-		|| c >= 'A' && c <= 'Z')
+		|| (c >= 'a' && c <= 'z')
+		|| (c >= 'A' && c <= 'Z'))
 		return (1);
 	return (0);
 }
