@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 11:02:51 by elsahin           #+#    #+#             */
-/*   Updated: 2025/10/30 14:04:29 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/03 16:18:41 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,11 @@ int	ft_atoi(const char *nptr)
 	}
 	return (result * sign);
 }
+// #include <stdio.h>
+// int main()
+// {
+// 	const char *str = "   -1234abc";
+// 	int num = ft_atoi(str);
+// 	printf("La chaîne '%s' convertie en entier est : %d\n", str, num);
+// 	return 0;
+// }
