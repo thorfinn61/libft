@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 10:30:17 by elsahin           #+#    #+#             */
-/*   Updated: 2025/10/29 11:02:33 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/03 13:57:40 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,18 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
+// #include <stdio.h>
+// int main()
+// {
+// 	const char *big = "hello world";
+// 	const char *little = "world";
+// 	size_t len = 11;
+
+// 	char *result = ft_strnstr(big, little, len);
+// 	if (result)
+// 		printf("Found: %s\n", result);
+// 	else
+// 		printf("Not Found\n");
+
+// 	return 0;
+// }

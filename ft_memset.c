@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 12:21:49 by elsahin           #+#    #+#             */
-/*   Updated: 2025/10/28 13:13:13 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/03 12:20:16 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
+// remplir une zone memoire avec une valeur donnee
 // #include <stdio.h>
 // int main()
 // {

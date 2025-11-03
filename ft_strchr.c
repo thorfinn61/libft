@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 16:46:19 by elsahin           #+#    #+#             */
-/*   Updated: 2025/10/29 14:12:09 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/03 12:42:19 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,13 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&s[i]);
 	return (NULL);
 }
+
+// #include <stdio.h>
+
+// int main()
+// {
+//     char *str = "Hello World";
+//     char *result1 = ft_strchr(str, 'o');
+//     printf("Résultat: %s\n\n", result1);
+//     return (0);
+// }

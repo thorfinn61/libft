@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 09:59:32 by elsahin           #+#    #+#             */
-/*   Updated: 2025/10/29 10:10:46 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/03 11:52:41 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,4 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+//Chercher un caractere dans une zone memoire

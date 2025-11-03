@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/02 09:56:01 by elsahin           #+#    #+#             */
-/*   Updated: 2025/11/02 09:57:36 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/03 11:47:31 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,4 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_lst);
 }
+//Exec la f sur chaque node puis return une nouvelle liste

@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 13:15:53 by elsahin           #+#    #+#             */
-/*   Updated: 2025/10/29 15:47:03 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/03 14:00:19 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,14 @@ char	*ft_strdup(const char *s1)
 	dest[i] = '\0';
 	return (dest);
 }
+// #include <stdio.h>
+
+// int main()
+// {
+//     char *original = "Hello";
+//     char *copie = ft_strdup(original);
+//     printf("Original : %s\n", original);
+//     printf("Copie    : %s\n", copie);
+//     free(copie);  
+//     return (0);
+// }

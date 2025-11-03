@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 10:01:08 by elsahin           #+#    #+#             */
-/*   Updated: 2025/10/30 10:01:47 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/03 13:59:58 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,3 +43,14 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(trimmed, s1 + start, end - start + 1);
 	return (trimmed);
 }
+// #include <stdio.h>
+// int main()
+// {
+// 	char *str = "  Hello World  ";
+// 	char *set = " ";
+// 	char *trimmed = ft_strtrim(str, set);
+// 	printf("Original : '%s'\n", str);
+// 	printf("Trimmed  : '%s'\n", trimmed);
+// 	free(trimmed);
+// 	return (0);
+// }

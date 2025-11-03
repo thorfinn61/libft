@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 12:41:57 by elsahin           #+#    #+#             */
-/*   Updated: 2025/10/28 13:13:36 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/03 11:23:17 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
+//Mettre a 0 une zone memoire
 // #include <stdio.h>
 // int main()
 // {

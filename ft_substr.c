@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 09:59:33 by elsahin           #+#    #+#             */
-/*   Updated: 2025/10/30 10:00:35 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/03 14:06:02 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,15 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[i] = '\0';
 	return (sub);
 }
+// #include <stdio.h>
+// int main()
+// {
+// 	char *str = "Hello, World!";
+// 	unsigned int start = 7;
+// 	size_t len = 2;
+// 	char *substr = ft_substr(str, start, len);
+// 	printf("Original : %s\n", str);
+// 	printf("Substr   : %s\n", substr);
+// 	free(substr);  
+// 	return (0);
+// }

@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 15:00:37 by elsahin           #+#    #+#             */
-/*   Updated: 2025/10/28 16:33:43 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/03 13:05:09 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,12 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[i + dst_len] = '\0';
 	return (src_len + dst_len);
 }
+// #include <stdio.h>
+// int main()
+// {
+// 	char dest[20] = "Hello, ";
+// 	const char *src = "World!";
+// 	size_t result = ft_strlcat(dest, src, 12);
+// 	printf("Resultat: %s\n", dest);
+// 	return 0;
+// }	
