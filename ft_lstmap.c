@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/02 09:56:01 by elsahin           #+#    #+#             */
-/*   Updated: 2025/11/03 15:39:38 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/04 10:13:54 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_lst);
 }
-//Exec la f sur chaque node puis return une nouvelle liste
+// Exec la f sur chaque node puis return une nouvelle liste
 // #include <stdio.h>
 // void    *dup_content(void *content)
 // {
@@ -67,5 +67,5 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 
 //     return (0);
 // }
-//cmd
-// make bonus && gcc ft_lstmap.c -L. -lft -o lstmap_test
+// // cmd
+// // make bonus && gcc ft_lstmap.c -L. -lft -o lstmap_test

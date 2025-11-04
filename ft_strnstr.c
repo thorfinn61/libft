@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 10:30:17 by elsahin           #+#    #+#             */
-/*   Updated: 2025/11/03 13:57:40 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/04 11:37:15 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 // {
 // 	const char *big = "hello world";
 // 	const char *little = "world";
-// 	size_t len = 11;
+// 	size_t len = 15;
 
 // 	char *result = ft_strnstr(big, little, len);
 // 	if (result)

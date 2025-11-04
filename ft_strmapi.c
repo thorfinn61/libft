@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 11:40:29 by elsahin           #+#    #+#             */
-/*   Updated: 2025/11/03 14:00:45 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/04 09:28:33 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,8 +38,8 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 // char convert_case(unsigned int i, char c)
 // {
 //     if (i % 2 == 0 && c >= 'a' && c <= 'z')
-//         return (c - 32);  // Convertit en majuscule
-//     return (c);          // Garde le caractère tel quel
+//         return (c - 32);  
+//     return (c);        
 // }
 
 // int main()
