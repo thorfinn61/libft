@@ -6,7 +6,7 @@
 /*   By: elsahin <elsahin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 14:06:05 by elsahin           #+#    #+#             */
-/*   Updated: 2025/11/04 11:34:37 by elsahin          ###   ########.fr       */
+/*   Updated: 2025/11/04 13:04:05 by elsahin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
-# include <limits.h>
 
 //  libc functions
 int					ft_isalpha(int c);
